@@ -35,6 +35,9 @@ function imagePicker() {
 	
 	document.getElementById("eyes_color").style.filter = "hue-rotate("+hue_eyes+"deg) saturate("+saturation+"%) brightness("+brightness+"%)";
 	
+	var bg = randomGenerator(0,360);
+	
+	document.body.style.backgroundColor = "hsl("+bg+",100%,95%)";
 }
 
 function randomGenerator(min, max) {
