@@ -6,3 +6,5 @@ The generator is actually really simple, it's a javascript code that randomly pi
 - head shape
 - eyes
 - mouth (or, more correctly, jaw)
+
+You can still access a prototype version of the generator [here](https://monsters-generator.netlify.com/).
