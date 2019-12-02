@@ -4,6 +4,21 @@ html, body {
 	margin:		auto;
 }
 
+h1 {
+	font-family: 'Solway', serif;
+	font-size: 4rem;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Solway', serif;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: lighter;
+}		
+
 div {
 	max-width:	900px;
 	position:	absolute;
@@ -11,6 +26,16 @@ div {
 	margin-right: 	auto;
 	left: 		0;
 	right: 		0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 
 #head_color {
