@@ -5,12 +5,16 @@
  <head>
 	<meta charset="utf-8">
 	<title>Random Enemies Generator</title>
+	<link href="https://fonts.googleapis.com/css?family=Solway:300,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
  </head>
  
- <body onload="initialize()">
+ <body class="noselect" onload="initialize()" onclick="imagePicker()">
 	
-	<div id="imageContainer" onclick="imagePicker()">
+	<h1>Random Monsters Generator</h1>
+	<h2>Click anywhere to generate a new monster!</h2>
+	
+	<div id="imageContainer">
 	</div>
 	
 	<script src="generator.js"></script>
